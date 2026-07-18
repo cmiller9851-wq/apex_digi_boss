@@ -27,22 +27,21 @@ jobs:
       - name: Setup Node.js Runtime Environment
         uses: actions/setup-node@v4
         with:
-          node-size: '20.x'
+          node-version: '20.x'
+          cache: 'npm'
 
-      - name: Setup Python Production Environment
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          cache: 'pip'
-
-      - name: Install Runtime Dependencies
-        # Changed from 'npm ci' to 'npm install' to gracefully handle missing package-lock.json files dynamically
+      - name: Install Dependencies
+        # Gracefully handles missing package-lock.json files dynamically
         run: |
           if [ -f package-lock.json ]; then
             npm ci
           else
             npm install
           fi
+
+      - name: Compile TypeScript Source Code
+        # Generates the distribution assets into /dist directory prior to push
+        run: npm run build
 
       - name: Execute Core Manifest Linting
         run: |
@@ -54,4 +53,4 @@ jobs:
 
       - name: Deploy Orchestration Artifacts
         run: |
-          echo "Syncing build matrix elements out to target cluster environment..."
+          echo "Syncing compiled distribution assets and core files out to target cluster environment..."
