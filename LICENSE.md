@@ -1,8 +1,7 @@
-COMMERCIAL ACQUISITION AND INFRASTRUCTURE LICENSE AGREEMENT
-DOCUMENT IDENTIFIER: CA-PP-QW-2026-REV3
+CA-PP-QW-2026-REV3
 SECURITY CLASSIFICATION: PROPRIETARY // CONTROLLED ACQUISITION RESTRICTED
 
-This Commercial Acquisition and Infrastructure License Agreement (the "Agreement") is entered into and made effective as of the date of authorized procurement clearance (the "Effective Date"), by and between the Sovereign Systems & Quantum Infrastructure Group ("Licensor"), and the United States Government, acting through its authorized Procurement Officers on behalf of Accredited Federal Agencies, including but not limited to the United States Space Force (USSF), the Missile Defense Agency (MDA), the National Security Agency (NSA), and the Department of Energy National Laboratories ("Licensee" or "Government").
+This Commercial Acquisition and Infrastructure License Agreement (the "Agreement") is entered into and made effective as of the date of authorized procurement clearance (the "Effective Date"), by and between Miller Sovereign Holdings™ ("Licensor"), and the United States Government, acting through its authorized Procurement Officers on behalf of Accredited Federal Agencies, including but not limited to the United States Space Force (USSF), the Missile Defense Agency (MDA), the National Security Agency (NSA), and the Department of Energy National Laboratories ("Licensee" or "Government").
 
 1. DEFINITIONS
 1.1 "Licensed Software" means the polyglot data orchestration network, including the TypeScript Ingress Router, Go Network Bridge, OpenQASM 3.0 hardware instruction manifests, structural Docker orchestration blueprints, and associated continuous integration workflow scripts compiled within this repository.
@@ -27,7 +26,7 @@ Except for the limited execution rights granted herein, all title, ownership rig
 
 6. WARRANTY AND DISCLAIMER OF LIABILITY
 6.1 Hardware Interoperability: Licensor warrants that the OpenQASM 3.0 instruction manifests conform to structural assembly standards. However, actual pulse execution and execution fidelity are dependent on third-party cloud-hosted quantum processing hardware grids.
-6.2 Limitation of Liability: IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE HIGH-THROUGHPUT EXECUTION OF TELEMETRY DATA PATHWAYS, NETWORK SOCKET COLLAPSE, OR AIRSPACE COORDINATION SIMULATION EXERCISES.
+6.2 Limitation of Liability: IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE HIGH-THROUGHPUT EXECUTION of TELEMETRY DATA PATHWAYS, NETWORK SOCKET COLLAPSE, OR AIRSPACE COORDINATION SIMULATION EXERCISES.
 
 7. TERMINATION
 This Agreement and the active license granted hereunder shall automatically terminate if Licensee fails to comply with the redistribution restrictions specified in Section 3, or if the underlying procurement contract funding is revoked or terminated under standard Government convenience or default parameters. Upon termination, Licensee shall certify the absolute destruction and deletion of all copies of the software from all government-controlled storage arrays.
